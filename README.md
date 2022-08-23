@@ -1,1 +1,1 @@
-/* Add Author and Project Details here */
+Assignment for Module 1 in Coursera Embedded Systems Software Course
