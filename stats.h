@@ -13,7 +13,6 @@
  * @file stats.h 
  * @brief header file for statistics analysis software
  *
- * <Add Extended Description Here>
  *
  * @author Morris Blaustein
  * @date 8/22/2022
@@ -39,7 +38,7 @@ void print_statistics(char * array);
  *
  */
 
-void print_array(char * array);
+void print_array(unsigned char * array);
 
 /**
  * @brief Finds the median of an array
@@ -49,7 +48,7 @@ void print_array(char * array);
  * @return  median of input array
  */
 
-char find_median(char * array);
+char find_median(unsigned char * array);
 
 /**
  * @brief Finds the mean of an array
@@ -59,7 +58,7 @@ char find_median(char * array);
  * @return  mean of input array
  */
 
-char find_mean(char * array);
+float find_mean(unsigned char * array);
 
 /**
  * @brief Finds the maximum of an array
@@ -69,7 +68,7 @@ char find_mean(char * array);
  * @return  maximum of input array
  */
 
-char find_maximum(char * array);
+int find_maximum(unsigned char * array);
 
 /**
  * @brief Finds the minimum of an array
@@ -79,7 +78,7 @@ char find_maximum(char * array);
  * @return  minimum of input array
  */
 
-char find_minimum(char * array);
+int find_minimum(unsigned char * array);
 
 /**
  * @brief sorts an array from largest to smallest
@@ -88,7 +87,7 @@ char find_minimum(char * array);
  *
  */
 
-void sort_array(char * array);
+void sort_array(unsigned char * array);
 
 
 #endif /* __STATS_H__ */
